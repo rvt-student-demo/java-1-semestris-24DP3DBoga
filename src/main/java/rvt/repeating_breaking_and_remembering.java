@@ -8,8 +8,11 @@ public class repeating_breaking_and_remembering {
 
         System.out.println("Give number: ");
 
+        int count = -1;
+    
         while(true) {
             int number = Integer.valueOf(sc.nextLine());
+            count += 1;
             if (number == -1) {
                 System.out.println("sosik");
                 break;
@@ -17,6 +20,8 @@ public class repeating_breaking_and_remembering {
 
             summa += number;
         }
-        System.out.println("Sum " + summa);
+        System.out.println("Sum: " + summa);
+        System.out.println("Numbers: " + count);
+        System.out.println("Average: " + summa * 1.0 / count);
      }
 }
