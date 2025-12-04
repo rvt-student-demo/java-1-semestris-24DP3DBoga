@@ -15,7 +15,7 @@ public class only_these_numbers {
                 break;
             }
             numbers.add(num);
-            }
+        }
  
         System.out.print("From where? ");
         int startIndex = scanner.nextInt();
